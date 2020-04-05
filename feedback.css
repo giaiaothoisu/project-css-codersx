@@ -1,0 +1,21 @@
+.feedback__person {
+  display: flex;
+  padding: 1rem;
+}
+
+.feedback__person img {
+  max-width: 10%;
+  margin-right: 2rem;
+}
+
+.person__name {
+  font-weight: bold;
+}
+
+.person__des {
+  font-weight: 300;
+}
+
+.person__review {
+  color: #f5bc4a;
+}

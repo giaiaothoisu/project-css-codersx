@@ -1,0 +1,13 @@
+.header__bottom {
+  text-align: center;
+  margin: 5rem 0;
+  font-size: 1.3rem;
+}
+
+.header__bottom-des span {
+  padding: 1rem 3rem;
+  background-color: var(--blue);
+  border-radius: 20px;;
+  color: var(--white);
+  font-weight: bold;
+}

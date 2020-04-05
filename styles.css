@@ -45,6 +45,12 @@
   height: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .header__content {
+    padding: 10rem 0;
+  }
+}
+
 .header__title {
   color: var(--blue);
   margin-bottom: 3rem;
@@ -98,6 +104,12 @@
   margin: 5rem auto;
 }
 
+@media screen and (max-width: 767px) {
+  .why__header {
+    width: 100%;
+  }
+}
+
 .why__title {
   margin-bottom: 3rem;
   font-size: 3rem;
@@ -110,6 +122,16 @@
 
 .why__cards {
   display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .why__cards {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 3rem !important;
+  }
 }
 
 .card {
@@ -151,11 +173,22 @@
   display: flex;
 }
 
+@media screen and (max-width: 767px) {
+  .feedback__cards {
+    flex-direction: column;
+  }
+}
+
 .feedback__card {
   width: calc(100%/4);
   margin: 0 1.5rem;
 }
 
+@media screen and (max-width: 767px) {
+  .feedback__card {
+    width: auto;
+  }
+}
 .feedback__content {
   padding: 2rem;
   background-color: var(--grey);

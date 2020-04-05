@@ -1,0 +1,23 @@
+.card {
+  padding: 1rem 2rem;
+  border: 2px solid var(--grey);
+  border-radius: 5px;
+  margin: 0 1rem;
+  text-align: center;
+  flex-basis: calc(100%/3);
+}
+
+.card__img {
+  width: 50%;
+  height: 10rem;
+  margin: 2rem auto;
+}
+
+.card__title {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.card__des {
+  line-height: 1.5;
+}
