@@ -1,0 +1,37 @@
+:root {
+  --blue: #4a90e2;
+  --grey: #FAFAFA;
+  --font-color: #252525;
+  --white: #fff;
+  --wrapper: 192rem;
+  --container: 117rem;
+  --primary-font: "Open Sans";
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.wraper {
+  max-width: var(--wrapper);
+  mar
+}
+
