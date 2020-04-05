@@ -182,3 +182,16 @@
 .person__review {
   color: #f5bc4a;
 }
+
+.footer {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.footer > * {
+  margin: 2rem 0;
+}
+
+.socicon {
+  margin: 0 1rem;
+}
