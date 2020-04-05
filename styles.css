@@ -136,10 +136,15 @@
   line-height: 1.5;
 }
 
+.feedback {
+  margin: 10rem 0;
+}
+
 .feedback__title {
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   padding: 2rem;
+  font-size: 3rem;
 }
 
 .feedback__cards {
@@ -149,4 +154,31 @@
 .feedback__card {
   width: calc(100%/4);
   margin: 0 1.5rem;
+}
+
+.feedback__content {
+  padding: 2rem;
+  background-color: var(--grey);
+}
+
+.feedback__person {
+  display: flex;
+  padding: 1rem;
+}
+
+.feedback__person img {
+  max-width: 10%;
+  margin-right: 2rem;
+}
+
+.person__name {
+  font-weight: bold;
+}
+
+.person__des {
+  font-weight: 300;
+}
+
+.person__review {
+  color: #f5bc4a;
 }
