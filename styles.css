@@ -1,3 +1,7 @@
+.header {
+  margin-bottom: 3rem;
+}
+
 .header__top {
   display: flex;
   justify-content: space-between;
@@ -32,4 +36,117 @@
 
 .logo__img {
   width: 12.8rem;;
+}
+
+.header__content {
+  padding: 20rem 0;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  height: auto;
+}
+
+.header__title {
+  color: var(--blue);
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.header__des {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  font-weight: 300;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  border-radius: 5px;;
+  outline: none;
+  border: none;
+  box-shadow: 0 5px 5px #eee;
+}
+
+.btn-primary {
+  background-color: var(--blue);
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header__bottom {
+  text-align: center;
+  margin: 5rem 0;
+  font-size: 1.3rem;
+}
+
+.header__bottom-des span {
+  padding: 1rem 3rem;
+  background-color: var(--blue);
+  border-radius: 20px;;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.why-choose {
+  margin: 10rem 0;
+}
+
+.why__header {
+  padding: 2rem;
+  text-align: center;
+  width: 60%;
+  margin: 5rem auto;
+}
+
+.why__title {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.why__des {
+  font-size: 2rem;
+}
+
+.why__cards {
+  display: flex;
+}
+
+.card {
+  padding: 1rem 2rem;
+  border: 2px solid var(--grey);
+  border-radius: 5px;
+  margin: 0 1rem;
+  text-align: center;
+  flex-basis: calc(100%/3);
+}
+
+.card__img {
+  width: 50%;
+  height: 10rem;
+  margin: 2rem auto;
+}
+
+.card__title {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.card__des {
+  line-height: 1.5;
+}
+
+.feedback__title {
+  text-align: center;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+.feedback__cards {
+  display: flex;
+}
+
+.feedback__card {
+  width: calc(100%/4);
+  margin: 0 1.5rem;
 }
