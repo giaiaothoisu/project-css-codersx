@@ -2,7 +2,7 @@
   --blue: #4a90e2;
   --grey: #FAFAFA;
   --font-color: #252525;
-  --white: #fff;
+  --white: #ffffff;
   --wrapper: 192rem;
   --container: 117rem;
   --primary-font: "Open Sans";
@@ -20,6 +20,14 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: var(--primary-font);
+  font-weight: 300;
+  color: var(--font-color);
+  background-color: var(--white);
+  font-size: 1.4rem;;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -32,6 +40,15 @@ a {
 
 .wraper {
   max-width: var(--wrapper);
-  mar
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: var(--container);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
